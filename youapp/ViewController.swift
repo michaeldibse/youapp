@@ -8,14 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController{
+ 
+    
+    var model = Model()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var one = 1 
+   
+        model.getVideos()
         
+       
     }
 
 
